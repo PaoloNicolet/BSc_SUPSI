@@ -1,0 +1,17 @@
+name: hackathon_1_2024
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - matplotlib
+  - plotly
+  - numpy
+  - pandas
+  - requests
+  - requests-cache
+  - scikit-learn
+  - python-dotenv
+  - pip
+  - pip:
+      - retry-requests
+      - openmeteo-requests
